@@ -47,10 +47,10 @@
     nixpkgs.follows = "unstable";
     nikspkgs.url = "github:NikSneMC/NikSpkgs/niksos";
 
-    private = {
-      url = "github:NikSneMC/NikSOS-private";
-      flake = false;
-    };
+#    private = {
+#      url = "github:NikSneMC/NikSOS-private";
+#      flake = false;
+#    };
 
     assets = {
       url = "github:NikSneMC/NikSOS/assets";
