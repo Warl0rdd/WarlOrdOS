@@ -1,9 +1,7 @@
 mkNixosModules: {
   imports = mkNixosModules [
-    "hardware/nvidia.nix"
+    "hardware/amd.nix"
     "programs/obs-studio.nix"
-    "hardware/razer.nix"
-    "services/ollama.nix"
   ];
 
   boot.loader = {
@@ -28,6 +26,4 @@ mkNixosModules: {
   services = {
     fstrim.enable = true;
   };
-
-  hardware.openrazer.users = ["niksne"];
 }
