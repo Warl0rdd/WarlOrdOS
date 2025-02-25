@@ -17,7 +17,7 @@ mkNixosModules: {
   catppuccin = {
     enable = true;
     flavor = "mocha";
-    accent = "sky";
+    accent = "lavender";
   };
 
   nix.settings = rec {

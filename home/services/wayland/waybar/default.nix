@@ -300,7 +300,7 @@
             ];
           }
           // (
-            if config.home.host == "laptop-niksne"
+            if config.home.host == "laptop-WarlOrd"
             then {
               hwmon-path = "/sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input";
             }
