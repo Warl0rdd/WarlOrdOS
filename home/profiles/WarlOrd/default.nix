@@ -5,7 +5,7 @@ mkHmModules: {inputs, ...}: {
 
   theme = {
     flavor = "mocha";
-    accent = "sky";
+    accent = "lavender";
 
     wallpaper = "${inputs.assets}/wallpapers/wolfclan.png";
   };
