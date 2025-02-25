@@ -35,7 +35,6 @@
       showQueueDuration
       copyToClipboard
       betterGenres
-      furiganaLyrics      
       adblock
       autoSkip
       playNext
