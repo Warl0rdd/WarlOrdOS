@@ -1,6 +1,7 @@
 mkNixosModules: {
   imports = (mkNixosModules [
    "core"
+   "network"
 #    "hardware/amd.nix"
 #    "programs/obs-studio.nix"
   ]) ++ [
