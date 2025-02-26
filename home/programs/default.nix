@@ -4,11 +4,11 @@
   ...
 }: {
   imports = [
-    ./browsers
-    ./editors
-    ./media
-    ./office
-    ./social
+    # ./browsers
+    # ./editors
+    # ./media
+    # ./office
+    # ./social
     ./wayland
     ./gtk.nix
     ./qt.nix
@@ -21,18 +21,18 @@
 
   home.packages = with inputs;
     [
-      catppuccin-whiskers.packages.${pkgs.system}.whiskers
+      # catppuccin-whiskers.packages.${pkgs.system}.whiskers
       catppuccin-catwalk.packages.${pkgs.system}.catwalk
     ]
     ++ (with pkgs; [
       file-roller
 
-      qbittorrent
+      # qbittorrent
       tmux
       blockbench
 
-      surrealist
-      postman
+      # surrealist
+      # postman
 
       mission-center
 
