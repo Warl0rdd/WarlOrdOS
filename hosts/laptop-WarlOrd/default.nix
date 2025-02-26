@@ -1,12 +1,7 @@
 mkNixosModules: {
-  imports = (mkNixosModules [
-   "core"
-   "network"
-#    "hardware/amd.nix"
-#    "programs/obs-studio.nix"
-  ]) ++ [
-  ./disks
-  ./hardware-configuration.nix
+  imports = mkNixosModules [
+   "hardware/amd.nix"
+   "programs/obs-studio.nix"
   ];
 
   boot.loader = {

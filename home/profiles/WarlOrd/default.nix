@@ -1,6 +1,6 @@
 mkHmModules: {inputs, ...}: {
   imports = mkHmModules [
-    # "terminal"
+    "terminal"
   ];
 
   theme = {

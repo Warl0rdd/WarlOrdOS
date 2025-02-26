@@ -1,6 +1,6 @@
 {niksos, ...}: {
   flake.nixosConfigurations = with niksos.hosts;
     mkHosts {
-      laptop-WarlOrd = systemProfiles.minimal;
+      laptop-WarlOrd = systemProfiles.laptop;
     };
 }
