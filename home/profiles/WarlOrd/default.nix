@@ -7,6 +7,6 @@ mkHmModules: {inputs, ...}: {
     flavor = "mocha";
     accent = "lavender";
 
-    wallpaper = "${inputs.assets}/wallpapers/wolfclan.png";
+    wallpaper = "~/Wallpapers/wallpaper.jpg";
   };
 }
