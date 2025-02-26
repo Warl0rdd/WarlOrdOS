@@ -53,7 +53,7 @@
 #    };
 
     assets = {
-      url = "github:NikSneMC/NikSOS/assets";
+      url = "github:Warl0rdd/WarlOrdOS/assets";
       flake = false;
     };
 
