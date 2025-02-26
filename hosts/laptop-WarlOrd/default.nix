@@ -19,7 +19,7 @@ mkNixosModules: {
   };
 
   nix.settings = rec {
-    cores = 4;
+    cores = 1;
     max-jobs = cores * 1;
   };
 
