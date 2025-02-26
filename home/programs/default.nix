@@ -19,19 +19,18 @@
     package = pkgs.zulu21;
   };
 
-  home.packages = with inputs;
-    (with pkgs; [
+  home.packages = with pkgs; [
       file-roller
 
       qbittorrent
       tmux
       blockbench
 
-       surrealist
-       postman
+      surrealist
+      postman
 
       mission-center
 
       custom.catppuccin
-    ]);
+  ];
 }
