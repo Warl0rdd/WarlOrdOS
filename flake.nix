@@ -94,15 +94,15 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    agenix = {
-      url = "github:ryantm/agenix";
-      inputs = {
-        nixpkgs.follows = "nixpkgs";
-        darwin.follows = "";
-        home-manager.follows = "hm";
-        systems.follows = "systems";
-      };
-    };
+#    agenix = {
+#      url = "github:ryantm/agenix";
+#      inputs = {
+#        nixpkgs.follows = "nixpkgs";
+#        darwin.follows = "";
+#        home-manager.follows = "hm";
+#        systems.follows = "systems";
+#      };
+#    };
 
     disko = {
       url = "github:nix-community/disko";
@@ -129,15 +129,6 @@
       url = "github:/ndfined-crp/ayugram-desktop/release?submodules=1";
       inputs = {
       };
-    };
-
-    catppuccin-catwalk = {
-      url = "github:catppuccin/catwalk";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    catppuccin-whiskers = {
-      url = "github:catppuccin/whiskers";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     hyprland = {
