@@ -1,5 +1,6 @@
 mkNixosModules: {
   imports = mkNixosModules [
+   "core"
 #    "hardware/amd.nix"
 #    "programs/obs-studio.nix"
   ];
