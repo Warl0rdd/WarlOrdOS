@@ -13,6 +13,7 @@
   environment = {
     systemPackages = with pkgs; [
       python313Full
+      onefetch
     ];
 
     variables.JAVA_HOME = "${pkgs.zulu21}/";
