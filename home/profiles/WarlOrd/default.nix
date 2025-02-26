@@ -7,6 +7,6 @@ mkHmModules: {inputs, ...}: {
     flavor = "mocha";
     accent = "lavender";
 
-    wallpaper = "~/Wallpapers/wallpaper.jpg";
+    wallpaper = "/home/WarlOrd/wallpapers/wolfclan.png";
   };
 }
