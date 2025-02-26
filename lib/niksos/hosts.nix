@@ -31,7 +31,7 @@
         type
         ++ [
           inputs.disko.nixosModules.disko
-#          inputs.agenix.nixosModules.age
+          inputs.agenix.nixosModules.age
           inputs.catppuccin.nixosModules.catppuccin
           self.niksosModules.all
         #  (import "${inputs.private}" "nixos" host)
