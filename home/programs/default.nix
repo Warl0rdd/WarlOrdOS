@@ -1,14 +1,10 @@
-{
-  pkgs,
-  inputs,
-  ...
-}: {
+{pkgs, ...}: {
   imports = [
-     ./browsers
-     ./editors
-     ./media
-     ./office
-     ./social
+    ./browsers
+    ./editors
+    ./media
+    ./office
+    ./social
     ./wayland
     ./gtk.nix
     ./qt.nix
@@ -20,17 +16,20 @@
   };
 
   home.packages = with pkgs; [
-      file-roller
+    file-roller
 
-      qbittorrent
-      tmux
-      blockbench
+    qbittorrent
+    tmux
+    blockbench
 
-      surrealist
-      postman
+    surrealist
+    postman
 
-      mission-center
+    mission-center
 
-      custom.catppuccin
+    custom.catppuccin
+
+    minikube
+    linkerd_edge
   ];
 }
