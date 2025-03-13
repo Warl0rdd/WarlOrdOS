@@ -29,7 +29,7 @@
 
     custom.catppuccin
 
-    minikube
     linkerd_edge
+    kubernetes-helm
   ];
 }

@@ -2,14 +2,13 @@
   users.users = {
     WarlOrd = {
       isNormalUser = true;
-      description = "NikSne";
+      description = "WarlOrd";
       shell = pkgs.fish;
       extraGroups = [
         "input"
         "networkmanager"
         "video"
         "wheel"
-
       ];
     };
   };

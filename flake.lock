@@ -918,24 +918,20 @@
     },
     "niksvim": {
       "inputs": {
-        "devshell": [],
-        "flake-compat": [],
         "flake-parts": [
           "flake-parts"
         ],
-        "git-hooks": [],
         "nixpkgs": [
           "nixpkgs"
         ],
-        "nixvim": "nixvim",
-        "treefmt-nix": []
+        "nixvim": "nixvim"
       },
       "locked": {
-        "lastModified": 1740378131,
-        "narHash": "sha256-taJ5sQuUJe39QKNbnoxmEbBmoAqvUmcXiAotN/ejlvo=",
+        "lastModified": 1741523611,
+        "narHash": "sha256-mQJDqtFYte0Wpyfg+lWmRC1kvTauVVYyu2ASJT3TGkE=",
         "owner": "NikSneMC",
         "repo": "NikSVim",
-        "rev": "fe31692168e99a62c3d26136a1fae0f48e889f42",
+        "rev": "10202ebde389084cb2d41a616f7f135de58b5fa2",
         "type": "github"
       },
       "original": {
@@ -1015,27 +1011,9 @@
     },
     "nixvim": {
       "inputs": {
-        "devshell": [
-          "niksvim",
-          "devshell"
-        ],
-        "flake-compat": [
-          "niksvim",
-          "flake-compat"
-        ],
         "flake-parts": [
           "niksvim",
           "flake-parts"
-        ],
-        "git-hooks": [
-          "niksvim",
-          "git-hooks"
-        ],
-        "home-manager": [
-          "niksvim"
-        ],
-        "nix-darwin": [
-          "niksvim"
         ],
         "nixpkgs": [
           "niksvim",
@@ -1043,18 +1021,14 @@
         ],
         "nuschtosSearch": [
           "niksvim"
-        ],
-        "treefmt-nix": [
-          "niksvim",
-          "treefmt-nix"
         ]
       },
       "locked": {
-        "lastModified": 1739902813,
-        "narHash": "sha256-BgOQcKKz7VNvSHIbBllHisv32HvF3W3ALF9sdnC++V8=",
+        "lastModified": 1741098523,
+        "narHash": "sha256-gXDSXDr6tAb+JgxGMvcEjKC9YO8tVOd8hMMZHJLyQ6Q=",
         "owner": "nix-community",
         "repo": "nixvim",
-        "rev": "0ab9947137cd034ec64eb5cd9ede94e53af21f50",
+        "rev": "03065fd4708bfdf47dd541d655392a60daa25ded",
         "type": "github"
       },
       "original": {
