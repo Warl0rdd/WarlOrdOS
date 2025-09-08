@@ -6,7 +6,7 @@
   ides =
     lib.pipe (with pkgs.custom.jetbrains; [
       # idea-ultimate
-      # pycharm-professional
+      pycharm-professional
       # webstorm
       # rust-rover
       goland
