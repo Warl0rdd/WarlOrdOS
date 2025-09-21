@@ -26,8 +26,6 @@
     nbtscanner
     offensive-azure
     pre2k
-    python3Packages.lsassy
-    python3Packages.pypykatz
     rdwatool
     samba
     sccmhunter

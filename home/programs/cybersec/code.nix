@@ -18,7 +18,6 @@
     osv-detector
     packj
     pip-audit
-    python310Packages.safety
     secretscanner
     skjold
     tell-me-your-secrets
