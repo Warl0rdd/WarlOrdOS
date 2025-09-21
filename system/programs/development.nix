@@ -12,7 +12,7 @@
 
   environment = {
     systemPackages = with pkgs; [
-      python313Full
+      python313
       onefetch
     ];
 

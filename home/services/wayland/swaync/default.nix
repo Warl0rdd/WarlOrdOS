@@ -1,4 +1,4 @@
-{config, ...}: {
+{...}: {
   services.swaync = {
     enable = true;
     settings = {
@@ -47,10 +47,10 @@
         };
       };
     };
-    style = ''
-      @import "${config.catppuccin.sources.waybar}/${config.theme.flavor}.css";
-
-      ${builtins.readFile ./style.css}
-    '';
+    # style = ''
+    #   @import "${config.catppuccin.sources.waybar}/${config.theme.flavor}.css";
+    #
+    #   ${builtins.readFile ./style.css}
+    # '';
   };
 }

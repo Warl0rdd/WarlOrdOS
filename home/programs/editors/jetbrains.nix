@@ -12,7 +12,7 @@
       goland
       # phpstorm
       # clion
-      datagrip
+      # datagrip
     ]) [
       (map (
         ide:
