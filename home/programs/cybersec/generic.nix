@@ -1,6 +1,6 @@
 # Generic tools (terminals, packers, clients, etc.)
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     chrony
     clamav
     curl

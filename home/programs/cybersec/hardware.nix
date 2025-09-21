@@ -1,6 +1,6 @@
 # Tools and libraries to access hardware
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     cantoolz
     chipsec
     cmospwd

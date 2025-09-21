@@ -1,6 +1,6 @@
 # Tools for working with web servers, web applications, APIs, etc.
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     # apachetomcatscanner
     albedo
     arjun

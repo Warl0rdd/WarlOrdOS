@@ -1,6 +1,6 @@
 # Load testing tools
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     ali
     drill
     cassowary

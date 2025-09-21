@@ -1,6 +1,6 @@
 # Smartcard tools
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     cardpeek
     libfreefare
     mfcuk

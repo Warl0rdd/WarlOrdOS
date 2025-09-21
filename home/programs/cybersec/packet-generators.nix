@@ -1,6 +1,6 @@
 # Tools to generate packets
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     boofuzz
     gping
     fping

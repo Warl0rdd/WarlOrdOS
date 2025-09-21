@@ -1,6 +1,6 @@
 # Common network tools
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     arp-scan
     arp-scan-rs
     arping

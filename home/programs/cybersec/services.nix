@@ -1,6 +1,6 @@
 # Tools for testing various services (SSH, SNMP, etc.)
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     acltoolkit
     checkip
     ghunt

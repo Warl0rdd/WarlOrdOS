@@ -1,6 +1,6 @@
 # Password and hashing tools
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     authoscope
     bruteforce-luks
     brutespray

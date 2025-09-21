@@ -1,6 +1,6 @@
 # Host security tools
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     checksec
     chkrootkit
     linux-exploit-suggester

@@ -1,6 +1,6 @@
 # Terminal tools
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     cutecom
     minicom
     picocom

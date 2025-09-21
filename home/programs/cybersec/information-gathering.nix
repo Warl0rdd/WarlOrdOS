@@ -1,6 +1,6 @@
 # Tools for informtion gathering
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     cloudbrute
     enumerepo
     holehe

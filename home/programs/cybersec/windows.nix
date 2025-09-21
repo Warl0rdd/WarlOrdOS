@@ -1,6 +1,6 @@
 # Microsoft infrastructure and Windows-related tools, incl. SMB
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     adidnsdump
     adreaper
     autobloody

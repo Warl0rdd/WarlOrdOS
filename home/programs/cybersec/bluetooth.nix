@@ -1,6 +1,6 @@
 # Bluetooth tools
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     bluez
     bluewalker
     python3Packages.bleak

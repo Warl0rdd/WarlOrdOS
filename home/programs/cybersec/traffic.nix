@@ -1,6 +1,6 @@
 # Tools to capture network traffic
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     above
     dhcpdump
     dnstop

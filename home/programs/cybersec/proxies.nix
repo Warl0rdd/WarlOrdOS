@@ -1,6 +1,6 @@
 # Proxy tools for MitM scenarios
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     bettercap
     burpsuite
     ettercap

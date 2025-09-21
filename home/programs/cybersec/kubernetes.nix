@@ -1,6 +1,6 @@
 # Kubernetes infrastructure
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     cfripper
     checkov
     cirrusgo

@@ -1,6 +1,6 @@
 # Container analysing tools
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     cdk-go
     clair
     cliam

@@ -1,6 +1,6 @@
 # VoIP/SIP tools
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
+  home.packages = with pkgs; [
     sipp
     sipsak
     sipvicious
