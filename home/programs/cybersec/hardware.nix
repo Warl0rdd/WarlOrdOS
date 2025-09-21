@@ -8,7 +8,6 @@
     extrude
     gallia
     hachoir
-    nrfutil
     packetry
     teensy-loader-cli
     termineter

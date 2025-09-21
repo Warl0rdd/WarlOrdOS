@@ -14,7 +14,6 @@
     iputils
     lftp
     mdns-scanner
-    mitm6
     mtr
     ncftp
     netcat-gnu
@@ -23,7 +22,6 @@
     nload
     nuttcp
     openvpn
-    pingu
     putty
     pwnat
     responder

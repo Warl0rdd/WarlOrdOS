@@ -15,8 +15,6 @@
     hurl
     inetutils
     inxi
-    ioccheck
-    iproute
     iproute2
     iw
     lynx
