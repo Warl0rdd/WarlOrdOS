@@ -5,7 +5,7 @@
     dhcpdump
     dnstop
     driftnet
-    dsniff
+    # dsniff
     goreplay
     joincap
     # junkie

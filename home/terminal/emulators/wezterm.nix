@@ -1,6 +1,5 @@
 {
   config,
-  inputs,
   lib',
   pkgs,
   ...
@@ -13,7 +12,7 @@
 in {
   programs.wezterm = {
     enable = true;
-    package = inputs.wezterm.packages.${pkgs.system}.default;
+    package = pkgs.wezterm;
 
     extraConfig = ''
       return {

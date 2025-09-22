@@ -2,7 +2,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     cfripper
-    checkov
+    # checkov
     cirrusgo
     kdigger
     kube-hunter

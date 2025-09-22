@@ -14,10 +14,10 @@
     gitls
     gitxray
     gokart
-    legitify
+    # legitify
     osv-detector
     packj
-    pip-audit
+    # pip-audit
     secretscanner
     skjold
     tell-me-your-secrets
