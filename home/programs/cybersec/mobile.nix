@@ -13,6 +13,6 @@
     payload-dumper-go
     scrcpy
     simg2img
-    trueseeing
+    # trueseeing
   ];
 }

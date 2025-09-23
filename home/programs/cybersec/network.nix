@@ -2,7 +2,6 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     arp-scan
-    arp-scan-rs
     arping
     arpoison
     atftp

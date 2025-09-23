@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   imports = [
     ./browsers
-    # ./cybersec
+    ./cybersec
     ./editors
     ./media
     ./office

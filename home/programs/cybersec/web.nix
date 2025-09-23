@@ -12,7 +12,7 @@
     chopchop
     clairvoyance
     commix
-    crackql
+    # crackql
     crlfsuite
     dalfox
     dismap

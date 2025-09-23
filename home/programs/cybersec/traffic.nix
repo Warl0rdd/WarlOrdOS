@@ -18,7 +18,6 @@
     tcpreplay
     termshark
     wireshark
-    wireshark-cli
     zeek
   ];
 }

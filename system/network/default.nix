@@ -8,6 +8,10 @@
     dns = "systemd-resolved";
   };
 
+  #  networking.extraHosts = ''
+  #
+  #  '';
+
   services = {
     openssh = {
       enable = true;

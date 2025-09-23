@@ -19,5 +19,6 @@
     sr2t
     sttr
     troubadix
+    wordlists
   ];
 }

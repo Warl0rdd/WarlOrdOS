@@ -20,7 +20,7 @@
       "wl-paste --type image --watch cliphist store"
       "${lib.getExe pkgs.hyprland-per-window-layout}"
       "equibop"
-      "ayugram-desktop"
+      "telegram-desktop"
       "thunderbird"
       "pypr"
     ];
@@ -75,11 +75,6 @@
         scroll_factor = 0.5;
         natural_scroll = true;
       };
-    };
-
-    gestures = {
-      workspace_swipe = true;
-      workspace_swipe_forever = true;
     };
 
     group = with config.theme.colors; {
